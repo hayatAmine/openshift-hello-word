@@ -1,0 +1,6 @@
+# Ignore all JPEGs
+
+*/.settings/**
+*/target/**
+.classpath
+.project
