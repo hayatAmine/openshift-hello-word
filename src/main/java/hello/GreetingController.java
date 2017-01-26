@@ -27,4 +27,8 @@ public class GreetingController {
 
 		return new ResponseEntity<Greeting>(greeting, HttpStatus.OK);
 	}
+	@RequestMapping("/")
+    public String home() {
+        return "Hello Docker World";
+    }
 }
