@@ -42,7 +42,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version> 0.4.13</version>
 				<configuration>
-				<dockerHost>https://192.168.99.100:2376</dockerHost>
+				<dockerHost>https://127.0.0.1:2376</dockerHost>
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
 					<resources>
